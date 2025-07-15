@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hom's Haven Nails</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('path_to_your_nail_salon_background_image.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: rgba(255, 204, 204, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 20px;
+            border-radius: 10px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #b30000;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: #b30000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #990000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hom's Haven Nails</h1>
+        <p>Phone: 904-789-9593</p>
+        <p>Address: 454 Blanding Blvd, Orange Park, FL 32073</p>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to Hom's Haven Nails</h2>
+            <p>At Hom's Haven Nails, we provide top-notch nail care services in a relaxing and friendly environment. Our experienced technicians are dedicated to making your nails look their best.</p>
+        </section>
+        <section>
+            <h2>Services</h2>
+            <h3>Nails Service</h3>
+            <ul>
+                <li>Repair nails</li>
+                <li>Reshape nails</li>
+                <li>Shani Buffin</li>
+                <li>Chrome</li>
+                <li>Cat eyes</li>
+                <li>Regular manicure</li>
+                <li>Gel feet or hand</li>
+                <li>Men's manicure</li>
+                <li>Spa manicure with wax</li>
+                <li>Gel manicure</li>
+                <li>Full set</li>
+                <li>Filling</li>
+                <li>Dipping</li>
+                <li>Design</li>
+            </ul>
+            <h3>Feet Service</h3>
+            <ul>
+                <li>Add pedicure wax</li>
+                <li>Add gel service</li>
+                <li>Regular pedicure</li>
+                <li>Classic pedicure</li>
+                <li>Foot massage (30 min)</li>
+                <li>Posh pedicure</li>
+                <li>Deluxe pedicure</li>
+                <li>Bomb pedicure</li>
+                <li>Foot massage (1 hr)</li>
+                <li>Volcano pedicure (CVD)</li>
+            </ul>
+            <h3>Waxing Service</h3>
+            <ul>
+                <li>Lip wax</li>
+                <li>Chin wax</li>
+                <li>Eyebrow</li>
+                <li>Men's eyebrows</li>
+                <li>Face wax</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us for appointments or any inquiries.</p>
+            <p>Phone: 904-789-9593</p>
+            <p>Address: 454 Blanding Blvd, Orange Park, FL 32073</p>
+        </section>
+        <section>
+            <h2>Visit Us</h2>
+            <p>We are conveniently located at 454 Blanding Blvd, Orange Park, FL 32073. Come and experience the best nail care services in town!</p>
+        </section>
+        <section>
+            <h2>Contact Form</h2>
+            <form action="https://formspree.io/f/{your_form_id}" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button
